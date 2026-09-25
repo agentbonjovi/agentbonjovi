@@ -22,7 +22,7 @@
 
 ### `> toolbox`
 
-`Python` · `PostgreSQL` · `Docker` · `REST APIs` · `Git` · `GitHub Actions` · `Linux` · `VS Code`
+`Rust` · `Python` · `Docker` · `Git` · `PostgreSQL` · `Linux` · `JavaScript` · `C++` · `Django` · `Agile` · `Scrum`
 
 ### `> how_i_lead`
 
