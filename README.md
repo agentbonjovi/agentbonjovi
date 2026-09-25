@@ -13,6 +13,14 @@
 
 ---
 
+## `> what_i_care_about_in_a_code_review`
+
+> **Is the reason for the change clear?**<br />
+> Does the design remain understandable six months from now?<br />
+> Are failure modes visible and recoverable?<br />
+> Is the change small enough to review with confidence?<br />
+> Did we improve the system, or merely move complexity elsewhere?
+
 ### `> current_focus`
 
 - Leading engineering work from discovery to production
@@ -22,7 +30,23 @@
 
 ### `> toolbox`
 
-`Rust` · `Python` · `Docker` · `Git` · `PostgreSQL` · `Linux` · `JavaScript` · `C++` · `Django` · `Agile` · `Scrum`
+<p align="center">
+  <img src="https://cdn.simpleicons.org/rust/39FF14" width="42" height="42" alt="Rust" title="Rust" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python/39FF14" width="42" height="42" alt="Python" title="Python" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/39FF14" width="42" height="42" alt="Docker" title="Docker" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/39FF14" width="42" height="42" alt="Git" title="Git" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/39FF14" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/linux/39FF14" width="42" height="42" alt="Linux" title="Linux" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/39FF14" width="42" height="42" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/cplusplus/39FF14" width="42" height="42" alt="C++" title="C++" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/django/39FF14" width="42" height="42" alt="Django" title="Django" />&nbsp;&nbsp;
+  <img src="./assets/agile.svg" width="42" height="42" alt="Agile" title="Agile" />&nbsp;&nbsp;
+  <img src="./assets/scrum.svg" width="42" height="42" alt="Scrum" title="Scrum" />
+</p>
+
+<p align="center">
+  <sub>Rust · Python · Docker · Git · PostgreSQL · Linux · JavaScript · C++ · Django · Agile · Scrum</sub>
+</p>
 
 ### `> how_i_lead`
 
@@ -43,38 +67,7 @@
 | **Leverage** | Automation, reusable patterns, and tools that remove repeated work |
 | **Growth** | Direct feedback, shared context, and increasingly independent engineers |
 
-### `> collaboration_protocol`
-
-```mermaid
-flowchart LR
-    A[Understand the problem] --> B[Write down constraints]
-    B --> C[Choose the smallest useful step]
-    C --> D[Ship and observe]
-    D --> E[Learn and improve]
-    E --> A
-```
-
-<details>
-  <summary><strong>What I care about in a code review</strong></summary>
-  <br />
-
-- Is the reason for the change clear?
-- Does the design remain understandable six months from now?
-- Are failure modes visible and recoverable?
-- Is the change small enough to review with confidence?
-- Did we improve the system, or merely move complexity elsewhere?
-
-</details>
-
 ---
-
-<p align="center">
-  <a href="https://github.com/agentbonjovi?tab=repositories">Projects</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/agentbonjovi?tab=stars">Curated tools</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/agentbonjovi">GitHub profile</a>
-</p>
 
 <p align="center">
   <sub><code>connection established // build thoughtfully // ship reliably</code></sub>

@@ -16,8 +16,12 @@
     .tagline { color: #c4d3c9; font-size: 18px; margin-bottom: 30px; }
     hr { border: 0; border-top: 1px solid #25312a; margin: 28px 0; }
     h3 { color: #8df0ae; font: 600 17px ui-monospace,SFMono-Regular,Menlo,monospace; margin-top: 30px; }
+    h2 { color: #b8ffd0; font: 650 22px ui-monospace,SFMono-Regular,Menlo,monospace; margin: 34px 0 18px; }
     code,pre { font-family: ui-monospace,SFMono-Regular,Menlo,monospace; }
-    .tools { color: #b8e9c7; }
+    .tools { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin: 20px auto 8px; }
+    .tool { display: grid; place-items: center; gap: 7px; min-width: 54px; color: #a9cdb5; font: 11px ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .tool img { width: 42px; height: 42px; object-fit: contain; }
+    .manifesto { padding: 19px 21px; border: 1px solid #2a6840; border-left: 4px solid #42d477; border-radius: 9px; background: linear-gradient(135deg,#0b1810,#0d1117); color: #d7f5e0; font-size: 17px; }
     pre { padding: 18px; overflow: auto; border: 1px solid #26382c; border-radius: 9px; background: #080d0a; color: #cde7d5; line-height: 1.7; }
     table { width: 100%; border-collapse: collapse; }
     th,td { padding: 10px 12px; border: 1px solid #30363d; text-align: left; }
@@ -33,10 +37,24 @@
   <div class="roles"><span>TEAM LEAD</span> · <span>SOFTWARE ENGINEER</span> · <span>SYSTEMS THINKER</span></div>
   <p class="tagline">I turn ambiguous product goals into clear technical decisions,<br>reliable systems, and teams that ship.</p>
   <hr>
+  <h2>&gt; what_i_care_about_in_a_code_review</h2>
+  <div class="manifesto"><b>Is the reason for the change clear?</b><br>Does the design remain understandable six months from now?<br>Are failure modes visible and recoverable?<br>Is the change small enough to review with confidence?<br>Did we improve the system, or merely move complexity elsewhere?</div>
   <h3>&gt; current_focus</h3>
   <ul><li>Leading engineering work from discovery to production</li><li>Designing maintainable backend and AI-enabled systems</li><li>Making delivery predictable through small batches and clear ownership</li><li>Improving observability, developer experience, and operational quality</li></ul>
   <h3>&gt; toolbox</h3>
-  <p class="tools"><code>Rust · Python · Docker · Git · PostgreSQL · Linux · JavaScript · C++ · Django · Agile · Scrum</code></p>
+  <div class="tools">
+    <div class="tool"><img src="https://cdn.simpleicons.org/rust/39FF14" alt="Rust"><span>Rust</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/python/39FF14" alt="Python"><span>Python</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/docker/39FF14" alt="Docker"><span>Docker</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/git/39FF14" alt="Git"><span>Git</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/postgresql/39FF14" alt="PostgreSQL"><span>PostgreSQL</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/linux/39FF14" alt="Linux"><span>Linux</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/javascript/39FF14" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/cplusplus/39FF14" alt="C++"><span>C++</span></div>
+    <div class="tool"><img src="https://cdn.simpleicons.org/django/39FF14" alt="Django"><span>Django</span></div>
+    <div class="tool"><img src="./assets/agile.svg" alt="Agile"><span>Agile</span></div>
+    <div class="tool"><img src="./assets/scrum.svg" alt="Scrum"><span>Scrum</span></div>
+  </div>
   <h3>&gt; how_i_lead</h3>
   <pre>01  Give people context, ownership, and room to make decisions.
 02  Prefer small pull requests and fast feedback over heroic releases.
@@ -45,7 +63,6 @@
 05  Fix the system that produced a problem, not only the symptom.</pre>
   <h3>&gt; engineering_values</h3>
   <table><tr><th>Principle</th><th>What it means in practice</th></tr><tr><td><b>Clarity</b></td><td>Explicit goals, constraints, owners, and definitions of done</td></tr><tr><td><b>Reliability</b></td><td>Useful tests, observability, safe delivery, and boring operations</td></tr><tr><td><b>Leverage</b></td><td>Automation, reusable patterns, and tools that remove repeated work</td></tr><tr><td><b>Growth</b></td><td>Direct feedback, shared context, and increasingly independent engineers</td></tr></table>
-  <details><summary><b>What I care about in a code review</b></summary><ul><li>Is the reason for the change clear?</li><li>Does the design remain understandable six months from now?</li><li>Are failure modes visible and recoverable?</li><li>Is the change small enough to review with confidence?</li></ul></details>
   <hr><p class="footer">connection established // build thoughtfully // ship reliably</p>
 </main>
 </body>
